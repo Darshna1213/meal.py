@@ -3,7 +3,7 @@ import json
 import requests # Used for making HTTP requests to the Gemini API
 
 # API Key - Leave as empty string. The Canvas environment will provide it at runtime.
-API_KEY = "" # Corrected: Ensure this is an empty string for Canvas environment
+API_KEY = "AIzaSyAG8Ofxn8EnCitkvthCHEAXlynW96IY9Ro" # Corrected: Ensure this is an empty string for Canvas environment
 
 # Function to call the Gemini API
 async def generate_meal_plan(preferences, goals, num_meals_per_day):
